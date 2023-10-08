@@ -26,9 +26,9 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   overflow: auto;
-  /*min-height: 9000px;*/
 }
 
+/* navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -37,7 +37,6 @@ body {
   width: 100%;
   padding: 1rem 7%;
   background: var(--second-bg-color);
-  /*background: transparent;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,6 +94,7 @@ body {
   display: none;
 }
 
+/* home page */
 .home {
   min-height: 100vh;
   display: flex;
@@ -287,6 +287,7 @@ body {
   opacity: 0.8;
 }
 
+/* about page */
 .about {
   padding: 8rem 10% 1.4rem;
   min-height: auto;
@@ -306,24 +307,6 @@ body {
   background-position: center;
 }
 
-/*
-.about {
-  min-height: 100vh;
-  padding: 0 5%;
-  background: url("/images/home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  padding-bottom: 6rem;
-}
-*/
 .heading {
   font-size: 4rem;
   margin-bottom: 2rem;
@@ -385,9 +368,8 @@ span {
 .btn-box.btns a::before {
   background: var(--second-bg-color);
 }
-/**/
 
-/* education */
+/* education page */
 .education {
   display: flex;
   justify-content: center;
@@ -477,6 +459,7 @@ span {
   padding-top: 0.5rem;
 }
 
+/* skills page */
 .skills {
   padding: 8rem 10% 1.4rem;
   min-height: auto;
@@ -595,20 +578,8 @@ span {
   padding-bottom: 7rem;
   padding: 8rem 10% 1.4rem;
 }
-/*
-.contact {
-  padding: 8rem 10% 1.4rem;
-  min-height: auto;
-  padding-bottom: 7rem;
-  background: var(--second-bg-color);
 
-  background: url("/images/home.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-*/
-
+/* contact page */
 .contact form {
   max-width: 70rem;
   margin: 0 auto;
@@ -678,6 +649,7 @@ span {
   cursor: pointer;
 }
 
+/* footer */
 .footer {
   display: flex;
   justify-content: space-between;
